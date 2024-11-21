@@ -2,7 +2,7 @@ import CountryFlag from "./CountryFlag";
 
 export default function CurrencyRateCard() {
   return (
-    <div className="w-full bg-white border-2 border-transparent hover:border-[#3161ed] cursor-pointer rounded-md p-[1rem] flex items-center justify-between">
+    <div className="w-full bg-white border-2 border-transparent hover:border-[#3161ed] cursor-pointer rounded-md p-[1rem] flex items-center justify-between shadow-md">
       <div className="flex items-center gap-3">
         <CountryFlag />
 

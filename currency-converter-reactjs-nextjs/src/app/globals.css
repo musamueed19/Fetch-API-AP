@@ -34,4 +34,8 @@ body {
   .card-title-value {
     @apply text-[#828282] text-xs font-semibold
   }
+
+  .button {
+    @apply flex items-center border-blue-300/60 border-2 rounded-lg px-3 py-2 gap-2 bg-blue-50/50 hover:bg-blue-100/50 text-[#3161ed] font-bold text-sm;
+  }
 }

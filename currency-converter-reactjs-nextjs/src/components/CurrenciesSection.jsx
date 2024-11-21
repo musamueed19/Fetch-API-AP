@@ -13,6 +13,25 @@ export default function CurrenciesSection() {
         <CurrencyRateCard />
         <CurrencyRateCard />
         <CurrencyRateCard />
+        <CurrencyRateCard />
+        <CurrencyRateCard />
+        <CurrencyRateCard />
+        <CurrencyRateCard />
+        <CurrencyRateCard />
+        <CurrencyRateCard />
+        <CurrencyRateCard />
+        <CurrencyRateCard />
+        <CurrencyRateCard />
+        <CurrencyRateCard />
+        <CurrencyRateCard />
+        <CurrencyRateCard />
+        <CurrencyRateCard />
+        <CurrencyRateCard />
+        <CurrencyRateCard />
+        <CurrencyRateCard />
+        <CurrencyRateCard />
+        <CurrencyRateCard />
+        <CurrencyRateCard />
       </div>
     </div>
   );
