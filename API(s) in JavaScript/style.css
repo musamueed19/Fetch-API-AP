@@ -48,9 +48,47 @@ text-decoration: underline;
 /* Hero section styling */
 .hero-section {
     margin: 1rem 0 0 0;
+    padding: 1rem;
     border-radius: 10px 10px 0 0;
     height: 600px;
     background-color: rgb(239, 239, 255);
+}
+
+
+/* Get Fact Button styling */
+
+#get-fact {
+    padding: 8px 1rem;
+    font-weight: bold;
+    /* border: 1px solid #226ffe; */
+    border: none;
+    color: white;
+    background-color: #226ffe;
+    border-radius: 5px;
+    margin: 0 0 1rem 0;
+}
+#get-fact:hover {
+    cursor: pointer;
+    background-color: #0059ff;
+}
+
+#get-fact:active {
+    outline: 4px solid #aac8ff;
+}
+
+
+/* Facts Text Styling */
+
+.head {
+    font-weight: bold;
+    padding: 5px;
+    font-size: 0.95rem;
+    color: #666;
+    
+}
+
+#fact-text {
+font-size: 0.85rem;
 }
 
 

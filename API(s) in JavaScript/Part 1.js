@@ -30,8 +30,11 @@ const API_BASE_URL = `https://cat-fact.herokuapp.com`;
 
 const url = API_BASE_URL + '/facts';
 
+const getFactButton = document.querySelector("#get-fact");
+const factText = document.querySelector("#fact-text");
+
 let promise = fetch(url);
-console.log(promise);
+// console.log(promise);
 
 
 /*
@@ -61,10 +64,13 @@ async function getFacts() {
     
 
     let response = await fetch(url);
-    let result = await response.json();
-    console.log(response, response.status, response.ok);
+    let data = await response.json();
+    // console.log(response, response.status, response.ok);`
 
-    console.log(result);
+    let randFact = Math.floor(Math.random() * data.length);
+
+    console.log("Facts Data -----", data[randFact].text);
+    factText.innerText = data[randFact].text;
     
 
 }
@@ -116,6 +122,7 @@ You can send money in the form of Cash, Cheque, UPI, or Bank Transfer (These are
 At the end, friend is taking money. But , you are sending money in different formats. That's why you have to use different Techiques to deal with these different Formats. He needs to convert the appropriate Format in to the money first.
 
 
-
-
 */
+
+
+getFactButton.addEventListener("click", getFacts);
