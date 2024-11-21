@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+
+/* header styling */
+
+header {
+    background-color: #222f3d;
+    height: 60px;
+    color: #ddd;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+/* Logo Styling */
+
+header a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+header a:hover {
+text-decoration: underline;
+}
+
+/* Page Title styling */
+
+.title {
+    margin: 1rem 0 0 0;
+    display: flex;
+    padding: 0 0 0 1rem;
+    justify-content: start;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+
+
+/* Hero section styling */
+.hero-section {
+    margin: 1rem 0 0 0;
+    border-radius: 10px 10px 0 0;
+    height: 600px;
+    background-color: rgb(239, 239, 255);
+}
+
+
+/* Footer styling */
+
+footer {
+    background-color: #131a22;
+    height: 100px;
+    /* border-radius: 10px 10px 0 0; */
+    color: #ddd;
+    display: flex;
+}
+
+.foot-pages {
+    width: 90%;
+height: 70px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: start;
+}
+
+.foot-pages a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 0.85rem;
+}
+.foot-pages a:hover {
+    text-decoration: underline;
+}
